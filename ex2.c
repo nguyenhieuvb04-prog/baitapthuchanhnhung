@@ -21,7 +21,7 @@ struct tnode {
     union Value val;            // Union
     struct tnode *left;
     struct tnode *right;
-};
+}
 
 // (a) Hàm cấp phát bộ nhớ động (Memory Allocation) cho một nút mới
 struct tnode* talloc(int id, int prio, float data) {
